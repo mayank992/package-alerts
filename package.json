@@ -1,0 +1,20 @@
+{
+  "name": "package-alerts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/test"
+  ],
+  "dependencies": {
+    "@sprinklrjs/spaceweb": "^13.30.0",
+    "downshift": "3.5.0",
+    "react": "18.2",
+    "replace": "^1.2.2",
+    "test": "workspace:^"
+  },
+  "devDependencies": {
+    "webpack": "^5.97.1"
+  }
+}
